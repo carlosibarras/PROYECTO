@@ -1,0 +1,24 @@
+/* --------------------- *\
+           HERO
+\* --------------------- */
+
+#hero-carousel img {
+    height: 100vh;
+    object-fit: cover;
+    filter: grayscale(70%);
+}
+
+.capa-hero {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.capa-hero .container,
+.container .row {
+    height: 100%;
+}

@@ -1,0 +1,10 @@
+/* --------------------- *\
+      PRODUCTO
+\* --------------------- */
+
+.card2{
+    transition: width 2s, height 2s, transform 2s;
+}
+.card2:hover{
+    transform: rotate(360deg);
+}
